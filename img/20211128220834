@@ -1,0 +1,11 @@
+[http "https://10.21.49.169"]
+	sslCAInfo = C:/Users/Administrator/gitlab-cshao.crt
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[user]
+	email = 2450854008@qq.com
+	name = Country-If
